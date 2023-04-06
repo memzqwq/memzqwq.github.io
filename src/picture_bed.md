@@ -41,3 +41,13 @@ Content-Type: image/png
 ## /webp
 
 返回webp格式的图片，若指定格式不存在且存在其他格式的图片，会自动转换
+
+## /avatar
+
+获取 Gravatar 图片
+
+## /pximg
+
+获取 Pixiv 图片
+
+功能已完成，但由于服务器IP被IDC Frontier防火墙屏蔽（存疑），暂不可用

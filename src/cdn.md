@@ -35,3 +35,21 @@ GET /gh/octocat/Hello-World@master/README
 ```
 Hello World!
 ```
+
+## /combine
+
+结合多个文件
+
+示例：
+
+请求
+```
+GET /combine/gh/MSKNET/Url-Shorten-Worker@main/API.js,npm/tieba-api/index.js
+```
+
+响应
+```
+=== Content of the first file ===
+
+=== Content of the second file ===
+```
